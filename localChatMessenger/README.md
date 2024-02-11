@@ -1,10 +1,16 @@
 # Local Chat Messenger
 
-### この Local Chat Messenger では、クライアントはサーバにメッセージを送り、それに対する応答を待ちます。
+### この Local Chat Messenger では、クライアントがメッセージを送り、サーバがそれに応答するという形で通信が行われます。
 
-- 一種の「質問と応答」のパターンであり、クライアントがメッセージを送り、サーバがそれに応答するという形で通信が行われます。
+## SOCK_STREAM の通信処理の流れ
 
-## SOCK_STREAM の通信処理
+![local-chat-messager](https://github.com/takeshi-arihori/video_compressor/assets/83809409/8ca61cec-d416-4578-9556-25bc1d2c67d6)
+
+
+## 手順の動画
+https://github.com/takeshi-arihori/video_compressor/assets/83809409/93a1811a-1202-4c97-8a3c-dfd2d166d44a
+
+
 
 ## 実行手順
 
