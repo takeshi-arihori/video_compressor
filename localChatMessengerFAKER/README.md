@@ -1,12 +1,16 @@
 # Python のソケット通信と faker パッケージを使用して、クライアントサーバ間で情報をやりとりするシンプルなアプリケーション。
 
 このプロジェクトは、Python の `socket` ライブラリと `faker` パッケージを使用して、UNIX ドメインソケットを介したクライアントとサーバ間の簡単な通信を実現します。サーバはクライアントからのメッセージを受け取り、`faker`を使用して生成した偽のデータをクライアントに送り返します。
+  
+https://github.com/takeshi-arihori/video_compressor/assets/83809409/5796bbce-4bbc-4672-b969-b09a13b6e39d
+
 
 ## Document
 
 [faker](https://github.com/joke2k/faker?tab=readme-ov-file)
 
 ## 前提条件
+
 
 このプロジェクトを実行するには、Python 3.x がインストールされている必要があります。また、`faker` パッケージを使用するためには、以下のコマンドでインストールしてください。
 
