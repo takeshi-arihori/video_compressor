@@ -44,9 +44,6 @@ def execute_method(request):
     params = request["params"]
     param_types = request["param_types"]
     # 型検証
-    if not validate_params(params, [int if t == 'int' else str for t in param_types]):
-        return {"error": "Invalid parameter types", "id": request["id"]}
-
     if method_name in methods:
         result = methods[method_name](*params)
         return {"results": str(result), "result_type": type(result).__name__, "id": request["id"]}
