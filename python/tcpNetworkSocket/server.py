@@ -8,7 +8,7 @@ server_address = '0.0.0.0'  # 任意のIPアドレスからの接続を受け入
 server_port = 9001  # 使用するポート番号。
 
 # 「temp」フォルダがない場合は作成。受信したファイルを格納するためのフォルダです。
-dpath = 'temp'
+dpath = 'tcpNetworkSocket/temp'
 if not os.path.exists(dpath):
     os.makedirs(dpath)
 
